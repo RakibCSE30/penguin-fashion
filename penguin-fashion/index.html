@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js" crossorigin="anonymous"></script>
     <style>
         .roboto {
             font-family: "Roboto", sans-serif;
@@ -22,23 +23,38 @@
 </head>
 
 <body class="bg-[#f2f0f0]">
-    <header class=" bg-[#FFFBF0] "> 
-    <nav class="bebas-neue lg:mx-20 mx-10 lg:flex lg:justify-between text-center lg:items-center my-15 pt-10 ">
-        <div>
-            <img class="w-80" src="../penguin-fashion/icons/logo.png" alt="">
-        </div>
-        <div class="font-medium flex justify-between gap-6">
-            <p>Home</p>
-            <p>Product</p>
-            <p>About us</p>
-            <p>Contact us</p>
-        </div>
+    <header class=" bg-[#FFFBF0] ">
+        <nav
+            class="bebas-neue  flex justify-between  lg:mx-20 mx-10 lg:flex lg:justify-between text-center items-center my-15 pt-10 ">
+            <div>
+                <img class="w-80" src="../penguin-fashion/icons/logo.png" alt="">
+            </div>
+            <div class="lg:font-medium lg:flex lg:justify-between lg:gap-6">
+                <button class="lg:hidden focus:bg-red-500 p-1 rounded">
+                    <img class="w-8" src="../penguin-fashion/images/nav-bar.png" alt="Menu" />
+                    <div class=" absolute  mt-6 ml-[-50px] text-left border-4 rounded-xl border-yellow-600 px-3 py-2">
+                        <p class="hover:bg-blue-200 rounded-lg px-2 py-1">Home</p>
+                        <p class="hover:bg-blue-200 rounded-lg px-2 py-1">Product</p>
+                        <p class="hover:bg-blue-200 rounded-lg px-2 py-1">About us</p>
+                        <p class="hover:bg-blue-200 rounded-lg px-2 py-1">Contact us</p>
 
-    </nav>
-    
+                    </div>
+                </button>
+
+
+                <p class="hidden lg:flex">Home</p>
+                <p class="hidden lg:flex">Product</p>
+                <p class="hidden lg:flex">About us</p>
+                <p class="hidden lg:flex">Contact us</p>
+
+            </div>
+
+        </nav>
+
         <div class="md:ml-20 lg:ml-20 ml-[30px] lg:flex md:flex pb-20">
             <div class="header-contant mr-30 mb-10px">
-                <h1 class=" uppercase bebas-neue lg:text-[80px]  lg:font-[600] text-[37px] font-bold "><span class="text-[#FABE4C] ">Be the Penguins</span><br>of Winter</h1>
+                <h1 class=" uppercase bebas-neue lg:text-[80px]  lg:font-[600] text-[37px] font-bold "><span
+                        class="text-[#FABE4C] ">Be the Penguins</span><br>of Winter</h1>
                 <p class="roboto text-base ">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                 </p>
 
@@ -125,7 +141,7 @@
                 </div>
             </div>
 
-            
+
             <!--  Man fashion -->
             <p class=" mt-20 mx-13 uppercase font-normal text-[40px] bebas-neue mb-10 ">Man Jacket</p>
 
@@ -193,11 +209,12 @@
     </main>
 
     <footer class="bebas-neue">
-        <div class="lg:flex lg:flex-row-reverse lg:mx-20 mx-10     justify-between gap-x-40 justify-center content-center">
+        <div
+            class="lg:flex lg:flex-row-reverse lg:mx-20 mx-10     justify-between gap-x-40 justify-center content-center">
             <div>
                 <img class="w-120 h-auto bg-cover mt-30 mr-100" src="../penguin-fashion/images/shopping.png" alt="">
             </div>
-            
+
             <div class="">
                 <div class="bg-[#FFFFFF] rounded-2xl lg:flex lg:mt-6    mt-23">
                     <div class=" ml-3 mb-3">
@@ -206,18 +223,20 @@
                     </div>
                     <div class=" lg:ml-7 lg:p-5 lg:text-left text-center px-6 pb-5 ">
                         <p class="font-bold text-[30px] ">Find the Perfect Fit</p>
-                        <p class="mb-10 text-2xl lg:text-xl">Everybody is different, which is why we offer styles for every body.
+                        <p class="mb-10 text-2xl lg:text-xl">Everybody is different, which is why we offer styles for
+                            every body.
                         </p>
                     </div>
                 </div>
                 <div class="bg-[#FFFFFF] rounded-2xl lg:flex  lg:mt-6 mt-23">
                     <div class=" ml-3 mb-3">
-                        <img class=" lg:w-54 lg:ml-6 lg:mt-3 lg:py-4 lg:pl-2 mx-auto w-3/7 pt-10" src="../penguin-fashion/icons/box.png"
-                            alt="">
+                        <img class=" lg:w-54 lg:ml-6 lg:mt-3 lg:py-4 lg:pl-2 mx-auto w-3/7 pt-10"
+                            src="../penguin-fashion/icons/box.png" alt="">
                     </div>
                     <div class="lg:text-left lg:ml-7 lg:p-5 text-center pb-5 px-6 ">
                         <p class="font-bold text-[30px]">Find the Perfect Fit</p>
-                        <p class="mb-10 text-2xl lg:text-xl">Everybody is different, which is why we offer styles for every body.
+                        <p class="mb-10 text-2xl lg:text-xl">Everybody is different, which is why we offer styles for
+                            every body.
                         </p>
                     </div>
                 </div>
@@ -228,13 +247,14 @@
                     </div>
                     <div class="lg:text-left lg:ml-7 lg:p-5 text-center pb-5 px-6 ">
                         <p class="font-bold text-[30px]">Contact Our Seller</p>
-                        <p class="mb-10 text-2xl lg:text-xl">Everybody is different, which is why we offer styles for every body.
+                        <p class="mb-10 text-2xl lg:text-xl">Everybody is different, which is why we offer styles for
+                            every body.
                         </p>
                     </div>
                 </div>
             </div>
 
-            
+
 
 
         </div>
@@ -242,6 +262,7 @@
 
 
     </footer>
+
 
 </body>
 
